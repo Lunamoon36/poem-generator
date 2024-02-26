@@ -3,42 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barriecito&family=M+PLUS+Rounded+1c&family=PT+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI poem generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI poem generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>
-        The poem will go here <br />
-        ...and here
-      </div>
-    </main>
+        <div class="poem">
+          The poem will go here <br />
+          ...and here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Lunamoon36" target="_blank"
-        >Cherry Atkinson</a
-      >
-      🍒 and is
-      <a href="https://github.com/Lunamoon36/poem-generator" target="_blank"
-        >open-sourced on GitHub </a
-      >and is <a href="https://cherry-poems.netlify.app/">hosted on Netlify</a>
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Lunamoon36" target="_blank"
+          >Cherry Atkinson</a
+        >
+        🍒 and is
+        <a href="https://github.com/Lunamoon36/poem-generator" target="_blank"
+          >open-sourced on GitHub </a
+        >and
+        <a href="https://cherry-poems.netlify.app/">hosted on Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
