@@ -68,3 +68,6 @@ footer {
   border-left: 3px solid #9896f1;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
+.poem strong {
+  color: #9896f1;
+}
